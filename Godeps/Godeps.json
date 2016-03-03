@@ -1,5 +1,5 @@
 {
 	"ImportPath": "github.com/cluesque/subtleist",
-	"GoVersion": "go1.5.1",
+	"GoVersion": "go1.6",
 	"Deps": []
 }
