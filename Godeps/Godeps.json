@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/mroth/subtleist",
+	"ImportPath": "github.com/cluesque/subtleist",
 	"GoVersion": "go1.5.1",
 	"Deps": []
 }

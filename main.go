@@ -1,4 +1,4 @@
-package main // import "github.com/mroth/subtleist"
+package main // import "github.com/cluesque/subtleist"
 
 import (
 	"bytes"
@@ -14,8 +14,8 @@ import (
 var webhookURL string
 
 func slashUsage() string {
-	return "Usage: `/socialrules [surprise|wellactually|backseat|subtle] [<@user>]`\n" +
-		"Anonymously send a Recurse Center social rule either publicly to your current channel " +
+	return "Usage: `/pineapple [surprise|wellactually|backseat|subtle] [<@user>]`\n" +
+		"Anonymously send a ActBlue social rule either publicly to your current channel " +
 		"or privately to a specific user."
 }
 
@@ -52,9 +52,9 @@ type slackMessageAttachment struct {
 func (r Rule) formatForPostingTo(destination string) []byte {
 	var intro string
 	if strings.HasPrefix(destination, "@") {
-		intro = "Someone asked me to share this Recurse Center social rule with you."
+		intro = "Someone asked me to share this ActBlue social rule with you."
 	} else {
-		intro = "Someone asked me to share this Recurse Center social rule with the group."
+		intro = "Someone asked me to share this ActBlue social rule with the group."
 	}
 
 	payload, _ := json.Marshal(slackMessage{

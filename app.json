@@ -1,8 +1,8 @@
 {
   "name": "subtleist",
-  "description": "Recurse Center Social Rules integration for Slack",
-  "website": "https://github.com/mroth/subtleist",
-  "repository": "https://github.com/mroth/subtleist",
+  "description": "ActBlue Social Rules integration for Slack",
+  "website": "https://github.com/cluesque/subtleist",
+  "repository": "https://github.com/cluesque/subtleist",
   "keywords": [
     "recurse-center",
     "social-rules",
@@ -15,5 +15,5 @@
     }
   },
   "image": "heroku/go:1.5.1",
-  "mount_dir": "src/github.com/mroth/subtleist"
+  "mount_dir": "src/github.com/cluesque/subtleist"
 }

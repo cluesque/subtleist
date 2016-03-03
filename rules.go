@@ -1,4 +1,4 @@
-package main // import "github.com/mroth/subtleist"
+package main // import "github.com/cluesque/subtleist"
 
 const manualURL = "https://www.recurse.com/manual"
 
